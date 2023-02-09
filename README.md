@@ -1,5 +1,5 @@
 # stroke-prediction
-### A python project that predicts a patient's likeliness to suffer a stroke based on various environmental and health factors.
+### A Python project that predicts a patient's likeliness to suffer a stroke based on various environmental and health factors.
 
 This project is an exploratory analysis of hospital patient data in order to predict the most at-risk groups for strokes and investigate possible relationships among these risk factors. The dataset was downloaded from kaggle, containing factors including patient ID, gender, age, whether they have hypertension, whether they have heart disease, whether they have been married, work type, residence type, average blood glucose level, body mass index (BMI), whether they smoke, and whether they have ever had a stroke.
 
