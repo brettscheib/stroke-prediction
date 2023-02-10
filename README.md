@@ -10,7 +10,9 @@ Data values were missing from the BMI column, so missing values were replaced wi
 Potential associations between the continuous numerical data were considered (average glucose levels, age, and BMI). These columns were compared in pairs with scatter plots and a linear regression model, and the fit equation, Pearson correlation coefficient (r), and Spearman correlation coefficient (&rho;) were displayed. A quadratic regression model was also fit to the relationship between BMI and age.
 
 ### Numerical Correlations with Stroke
-The numerical columns (age, BMI, and average glucose level) were evaluated for their effects on patient stroke rate. For each numerical column, a t-test was conducted with the stroke column to compare the distribution means of patients who have had a stroke with patients who have not experienced a stroke. Violin plots and percent stacked bar charts were used to visualize these distributions.
+The numerical columns (age, BMI, and average glucose level) were evaluated for their effects on patient stroke rate. For each numerical column, a t-test was conducted with the stroke column to compare the distribution means of patients who have had a stroke with patients who have not experienced a stroke. Violin plots and percent stacked bar charts were used to visualize these distributions (examples shown below).
+
+<img src="https://user-images.githubusercontent.com/124539881/217977459-058e04f6-4b26-4eb1-9d4a-bf5ffef06907.png" width="525" height="365"><img src="https://user-images.githubusercontent.com/124539881/217977486-aa5a2e93-613b-450a-a134-dd59fac45aa0.png" width="484" height="390">
 
 ### Categorical Correlations with Stroke
 The categorical columns (gender, hypertension, heart disease, marital status, work type, residence type, and smoking status) were then evaluated for their effects on patient stroke rate. Chi-squared tests were conducted between each categorical factor and the stroke column in a contingency table. A dependency on age may be responsible for the small p-values associated with some of these factors.
