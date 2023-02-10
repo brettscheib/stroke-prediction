@@ -12,7 +12,7 @@ Potential associations between the continuous numerical data were considered (av
 ### Numerical Correlations with Stroke
 The numerical columns (age, BMI, and average glucose level) were evaluated for their effects on patient stroke rate. For each numerical column, a t-test was conducted with the stroke column to compare the distribution means of patients who have had a stroke with patients who have not experienced a stroke. Violin plots and percent stacked bar charts were used to visualize these distributions (examples shown below).
 
-<img src="https://user-images.githubusercontent.com/124539881/217977459-058e04f6-4b26-4eb1-9d4a-bf5ffef06907.png" width="525" height="365"><img src="https://user-images.githubusercontent.com/124539881/217977486-aa5a2e93-613b-450a-a134-dd59fac45aa0.png" width="450" height="390">
+<img align="top" src="https://user-images.githubusercontent.com/124539881/217977459-058e04f6-4b26-4eb1-9d4a-bf5ffef06907.png" width="51%"><img src="https://user-images.githubusercontent.com/124539881/217977486-aa5a2e93-613b-450a-a134-dd59fac45aa0.png" width="48%">
 
 ### Categorical Correlations with Stroke
 The categorical columns (gender, hypertension, heart disease, marital status, work type, residence type, and smoking status) were then evaluated for their effects on patient stroke rate. Chi-squared tests were conducted between each categorical factor and the stroke column in a contingency table. A dependency on age may be responsible for the small p-values associated with some of these factors.
@@ -20,7 +20,7 @@ The categorical columns (gender, hypertension, heart disease, marital status, wo
 ### Machine Learning for Stroke Prediction
 The risk factors identified to affect stroke rates the most were age, average glucose level, hypertension status, and heart disease status. A "k nearest neighbors" algorithm (kNN) was implemented in order to predict the stroke risk of the patient based on these known properties. The algorithm was trained with 70% of the dataset using known stroke rates, and the accuracy of the model was evaluated with the remaining 30%. The accuracy maxed out at about k=13 neighbors, leading to a model with about 95% accuracy.
 
-<p align="center"><img src="https://user-images.githubusercontent.com/124539881/217978948-cc5aaf12-bfb9-4633-9f03-2b50b818b2a0.png" width="515" height="390"></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/124539881/217978948-cc5aaf12-bfb9-4633-9f03-2b50b818b2a0.png" width="55%"></p>
 
 
 
