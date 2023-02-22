@@ -18,7 +18,7 @@ The numerical columns (age, BMI, and average glucose level) were evaluated for t
 The categorical columns (gender, hypertension, heart disease, marital status, work type, residence type, and smoking status) were then evaluated for their effects on patient stroke rate. Chi-squared tests were conducted between each categorical factor and the stroke column in a contingency table. A dependency on age may be responsible for the small p-values associated with some of these factors.
 
 ### Machine Learning for Stroke Prediction
-The risk factors identified to affect stroke rates the most were age, average glucose level, hypertension status, and heart disease status. A "k nearest neighbors" algorithm (kNN) was implemented in order to predict the stroke risk of the patient based on these known properties. The algorithm was trained with 70% of the dataset using known stroke rates, and the accuracy of the model was evaluated with the remaining 30%. The accuracy maxed out at about k=13 neighbors, leading to a model with about 95% accuracy.
+The risk factors identified to affect stroke rates the most were age, average glucose levels, hypertension status, and heart disease status. A "k-nearest neighbors" algorithm (kNN) was implemented in order to predict the stroke risk of the patient based on these known properties. The algorithm was trained with 70% of the dataset using known stroke rates, and the accuracy of the model was evaluated with the remaining 30%. The accuracy maxed out at about k=13 neighbors, leading to a model with about 95% accuracy.
 
 <p align="center"><img src="https://user-images.githubusercontent.com/124539881/217978948-cc5aaf12-bfb9-4633-9f03-2b50b818b2a0.png" width="55%"></p>
 
